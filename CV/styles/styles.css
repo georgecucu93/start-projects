@@ -1,11 +1,11 @@
 body {
-    background-color: #F5F7FA;
+    background-color: #92a1b8;
     font-family: 'Montserrat', sans-serif;
 }
 
 .right-section {
     padding-left: 90px;
-    background-color: #FFF;
+    background-color: #ffffff;
     padding-right: 220px;
 }
 
@@ -157,8 +157,9 @@ ol li, .bracket {
 }
 
 .sidebar-section img {
-    margin-top: 40px;
-    width: 370px;
+    margin-top: 30px;
+    width: 350px;
+    border-radius: 50%;
 }
 
 .sidebar-title {
