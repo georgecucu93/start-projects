@@ -40,7 +40,7 @@ body {
 }
 
 .about-me-section {
-    width: 400px;
+    width: 700px;
 }
 
 .about-me-section p {
@@ -50,6 +50,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
+    width: 700px;
 }
 
 .projects-sections {
@@ -188,7 +189,7 @@ ol li, .bracket {
     font-weight: 400;
     line-height: 24px;
     font-size: 14px;
-    color: #565E6A;
+    color: white;
 }
 
 .sidebar-list {
