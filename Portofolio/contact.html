@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width", initial-scale="1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9c958438d8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header-see-more">
+        <div class="container">
+            <nav>
+                <img src="images/logo-george..png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="index.html">Home</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div id="contact">
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                    <div class="contact-left-title">
+                        <h2>Get in touch</h2>
+                        <hr>
+                    </div>
+                <input type="hidden" name="access_key" value="a45c0de8-f9b6-40b1-9613-b141025b9d43">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="Email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="contact-right">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>georgecucu1993@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/george-cucu/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/George Cucu CV.pdf" download class="btn btn2">Download CV</a>
+                <a href="images/app-release.apk" download class="btn btn2">Download APK</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+       
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</htm>
